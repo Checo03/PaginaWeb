@@ -1,0 +1,59 @@
+body{
+    background-color: #E7E7DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 200px;
+    padding-top: 20px;
+
+    text-align: center;
+}
+
+
+.InicioError {
+    background-color: #FF8888;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+}
+
+.Aviso h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.Aviso:hover h1{
+    color: red;
+}
+
+.Aviso .AvisoSub{
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.Boton{
+    padding: 10px 20px;
+    background-color: #0F3057;
+    color: white;
+    border: none ;
+    border-radius: 5px;
+    cursor: pointer;
+
+    margin-bottom: 35px;
+}
+
+.Boton:hover{
+    background-color: rgb(13, 206, 13);
+}
+
